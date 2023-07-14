@@ -3,7 +3,12 @@ from typing import List, Dict
 
 
 class Solution:
-    def maximalSquare(self, matrix: List[List[str]]) -> int:
+
+    def maximalSquare(self, matrix: List[List[int]]) -> int:
+        pass
+
+
+    def maximalSquare2(self, matrix: List[List[str]]) -> int:
         m = len(matrix)
         n = len(matrix[0])
 
